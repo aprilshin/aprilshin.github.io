@@ -1,0 +1,771 @@
+@charset "utf-8";
+/* @import url('https://fonts.googleapis.com/css?family=Arsenal:400,700'); */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,500i,600,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+/* 스타일 초기화 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1em;
+  font: inherit;
+  vertical-align: baseline;
+}
+button {
+  font-size: 1em;
+  font-family: inherit;
+  cursor: pointer;
+}
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"] {
+  font-size: 1em;
+  font-family: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+main,
+nav,
+section {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* 공통 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* 링크 스타일 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* 공통 반응형 콘텐츠 */
+
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  color: #414145;
+}
+
+.rwd-img {
+  max-width: 100%;
+  height: auto;
+}
+.italic {
+  font-style: italic;
+}
+.linkedin {
+  color: #0077b5;
+  text-decoration: underline;
+}
+.button {
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #fff;
+  border: 1px solid #414145;
+  color: #414145;
+  text-align: center;
+  font-size: 14px;
+  padding: 18px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.button:hover {
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #414145;
+  border: 1px solid #414145;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 18px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+.button1 {
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #fff;
+  border: 1px solid #414145;
+  color: #414145;
+  text-align: center;
+  font-size: 14px;
+  padding: 18px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.button1:hover {
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #414145;
+  border: 1px solid #414145;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 18px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* 공통 헤더 */
+.header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.logo {
+  order: -1;
+}
+.nav-menu {
+  display: flex;
+}
+.nav-portfolio {
+  color: #414145;
+  letter-spacing: 0.3px;
+}
+.nav-about {
+  color: #414145;
+  letter-spacing: 0.3px;
+}
+.nav-about a:hover,
+.nav-portfolio a:hover {
+  color: #bd2a3b;
+}
+
+/* 공통 Footer */
+.footer {
+  background: #414145;
+  padding: 30px;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; */
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.copyright {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  margin: 22px;
+  font-size: 200px;
+  width: 1px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-bottom: 1px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.6;
+}
+
+/* Set a specific color for each brand */
+
+/* Dribbble */
+.fa-dribbble {
+  background: #414145;
+  /* background: #C42261; */
+  color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #414145;
+  /* background: #0077b5; */
+  color: white;
+}
+/* Medium */
+.fa-medium {
+  background: #414145;
+  color: white;
+}
+/* Google */
+.fa-google {
+  background: #414145;
+  /* background: #ea4335; */
+  color: white;
+}
+.main{
+  overflow: hidden;
+}
+.jump{
+  align-content: center;
+}
+
+
+
+/* 모바일 */
+@media screen and (max-width: 1000px) {
+  .header {
+    padding: 40px 20px 40px 20px;
+    position: sticky;
+  }
+  .logo {
+    margin-left: 5px;
+  }
+  .nav-portfolio {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  .nav-about {
+    font-size: 14px;
+  }
+  .route {
+    margin: 20px;
+  }
+  .figcaption,
+  .video_caption {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #bd2a3b;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .rc-description {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.24);
+  }
+  .route h1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 30px;
+    line-height: 1.3;
+    font-family: "PT Serif", serif;
+    /* font-family: "Montserrat", sans-serif; */
+  }
+  .rc-details {
+    font-family: "Open Sans", sans-serif;
+    margin: 50px 0;
+  }
+  .rc-details-heading {
+    font-weight: 700;
+    line-height: 2;
+  }
+  .route figure {
+    text-align: center;
+    margin: 50px 0;
+  }
+  .route section {
+    margin: 0 auto;
+  }
+  .overview h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #bd2a3b;
+    margin: 50px 0px 30px 0px;
+  }
+  .overview p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .overview-italic,
+  .discover-italic,
+  .italic {
+    font-style: italic;
+  }
+  .bold {
+    font-weight: 700;
+  }
+  .goals h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 50px 0px 50px 0px;
+  }
+  .goals p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .goals-three {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+  }
+  .approach h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 50px 0px 50px 0px;
+  }
+  .approach p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .process h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 50px 0px 50px 0px;
+  }
+  .process p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .next {
+    position: static;
+    display: block;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #bd2a3b;
+    transition: all 500ms;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    background: #fff;
+    color: #bd2a3b;
+  }
+  .next:hover {
+    background: #bd2a3b;
+    color: #fff;
+  }
+
+  /* .next {
+    display: block;
+    position: static;
+    margin: 50px;
+    padding: 20px;
+  } */
+  .footer {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .copyright {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 1px;
+     font-weight: 400;
+  }
+  .fa {
+    margin: 18px;
+  }
+    .button1 {
+  width: 300px;
+}
+
+.button1:hover {
+  width: 300px;  
+}
+
+.column {
+    float: left;
+    width: 50%;
+    font-size: 10px;
+    line-height: 15px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.keytitle{
+  /* font-family: "PT Serif", serif; */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #414145;
+  font-size: 15px;
+
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #414145; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+    font-family: "Open Sans", sans-serif;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+}
+/* 데스크탑 */
+@media screen and (min-width: 1000px) {
+  .header {
+    padding: 45px 80px 45px 80px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 3px 3px 0 rgba(190, 190, 190, 0.01);
+  }
+  .nav-portfolio {
+    margin-right: 30px;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 0.3px;
+  }
+  .nav-about {
+    font-size: 16px;
+  }
+  .route-creator-title {
+    font-size: 40px;
+    color: #acacac;
+  }
+  .figcaption {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #bd2a3b;
+    font-family: "Open Sans", sans-serif;
+  }
+  .video_caption {
+    margin-top: 42px;
+    font-family: "Open Sans", sans-serif;
+    color: #bd2a3b;
+  }
+  .video {
+  }
+  .route {
+    position: relative;
+    padding-bottom: 200px;
+  }
+  .route-wrap {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .route h1 {
+    font-size: 48px;
+    font-weight: 400;
+    padding-top: 80px;
+    margin-left: 23px;
+    line-height: 1.2;
+    font-family: "PT Serif", serif;
+    /* font-family: "Montserrat", sans-serif; */
+  }
+  .rc-description {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.24);
+  }
+  .rc-details {
+    font-family: "Open Sans", sans-serif;
+    margin: 30px 0px;
+    margin-left: 23px;
+   
+  }
+  .rc-details-heading {
+    font-weight: 700;
+    line-height: 2;
+  }
+
+  /* .route  p{
+  margin: 40px 0;
+  line-height: 1.5;
+} */
+  .route figure {
+    text-align: center;
+    margin: 50px 0;
+  }
+  .route section {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .overview h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #bd2a3b;
+    margin: 100px 0px 50px 0px;
+  }
+  .overview p {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
+  }
+  .overview-italic,
+  .discover-italic,
+  .italic {
+    font-style: italic;
+  }
+  .bold {
+    font-weight: 700;
+  }
+  .underline{
+    text-decoration: underline;
+  }
+  .goals h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 130px 0px 50px 0px;
+  }
+  .goals p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .goals-three {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 70px;
+    color: #333333;
+  }
+  .approach h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 130px 0px 50px 0px;
+  }
+  .approach p {
+    font-size: 16px;
+    line-height: 29px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .process h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #bd2a3b;
+    /* color: rgba(0, 0, 0, 0.24); */
+    margin: 130px 0px 50px 0px;
+  }
+  .process p {
+    font-size: 16px;
+    line-height: 29px;
+    font-family: "Open Sans", sans-serif;
+  }
+.column {
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.keytitle{
+  /* font-family: "PT Serif", serif; */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #414145;
+  font-size: 27px;
+
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #414145; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 14px; /* Increase font size */
+    font-family: "Open Sans", sans-serif;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+  .next {
+    position: absolute;
+    right: 90px;
+    bottom: 100px;
+    padding: 30px 100px;
+    border: 1px solid #bd2a3b;
+    transition: all 500ms;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background: #fff;
+    color: #bd2a3b;
+  }
+  .next:hover {
+    background: #bd2a3b;
+    color: #fff;
+  }
+  .footer {
+    font-size: 22px;
+    margin-top: 50px;
+    font-weight: 200;
+    text-align: center;
+  }
+  .copyright {
+    width: 100%;
+    font-size: 13px;
+    margin-top: 5px;
+    text-align: center;
+     font-weight: 400;
+  }
+  .fa {
+    margin: 22px;
+  }
+  .button1 {
+  width: 400px;
+}
+
+.button1:hover {
+  width: 400px;  
+}
+}
