@@ -313,7 +313,7 @@ body {
 }
 .card2 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "UberEats Mini Project";
+  content: "Uber Eats Mini Project";
   padding: 50px;
 }
 .card3 a:hover::after {
