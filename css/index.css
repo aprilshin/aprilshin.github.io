@@ -313,27 +313,27 @@ body {
 }
 .card2 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "LinkedIn Design Exercise";
+  content: "UberEats Mini Project";
   padding: 50px;
 }
 .card3 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "Route Creator UX/UI Design";
+  content: "LinkedIn Design Exercise";
   padding: 50px;
 }
 .card4 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "Samsung Global Audio UX Consulting";
+  content: "Route Creator UX/UI Design";
   padding: 50px;
 }
 .card5 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "iTrack UX/Web Re-design";
+  content: "Samsung Global Audio UX Consulting";
   padding: 50px;
 }
 .card6 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "Michigan Medicine UX Research";
+  content: "iTrack UX/Web Re-design";
   padding: 50px;
 }
 

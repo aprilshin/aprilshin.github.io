@@ -164,6 +164,9 @@ body {
   color: #0077b5;
   text-decoration: underline;
 }
+.red {
+  color: #bd2a3b;
+}
 .button {
   display: inline-block;
   border-radius: 0px;
