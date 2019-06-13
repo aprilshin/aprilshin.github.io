@@ -494,6 +494,8 @@ body {
     margin-top: 15px;
 }
 
+
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -530,7 +532,12 @@ body {
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
 }
-
+.footer_2 {
+  font-size: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
 }
 /* 데스크탑 */
 @media screen and (min-width: 1000px) {
@@ -757,9 +764,9 @@ body {
   .copyright {
     width: 100%;
     font-size: 13px;
-    margin-top: 5px;
+    margin-top: 15px;
     text-align: center;
-     font-weight: 400;
+     font-weight: 200;
   }
   .fa {
     margin: 22px;
@@ -770,5 +777,11 @@ body {
 
 .button1:hover {
   width: 400px;  
+}
+.footer_2 {
+  font-size: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
 }

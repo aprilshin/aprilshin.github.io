@@ -483,10 +483,16 @@ body {
     width: 100%;
     font-size: 12px;
     font-weight: 400;
-    margin-top: 1px;
+    margin-top: 10px;
   }
   .fa {
   margin: 18px;
+}
+.footer_2 {
+  font-size: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
 }
 /* 데스크탑 */
@@ -598,11 +604,17 @@ body {
   .copyright {
     width: 100%;
     font-size: 13px;
-    margin-top: 5px;
+    margin-top: 15px;
     text-align: center;
     font-weight: 400;
   }
   .fa {
   margin: 22px;
+}
+.footer_2 {
+  font-size: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
 }
