@@ -351,6 +351,7 @@ body {
     font-size: 24px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.24);
+    /* margin: 50px 0; */
   }
   .route h1 {
     font-size: 30px;
@@ -564,6 +565,7 @@ body {
     color: #bd2a3b;
   }
   .video {
+    width: 100%;
   }
   .route {
     position: relative;
@@ -586,6 +588,7 @@ body {
     font-size: 40px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.24);
+    margin-left: 23px;
   }
   .rc-details {
     font-family: "Open Sans", sans-serif;
