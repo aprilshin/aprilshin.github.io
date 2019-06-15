@@ -346,7 +346,9 @@ body {
     color: #bd2a3b;
     font-family: "Open Sans", sans-serif;
   }
-
+  .video {
+    width: 100%;
+  }
   .rc-description {
     font-size: 24px;
     font-weight: 500;
