@@ -167,6 +167,9 @@ body {
 .red {
   color: #bd2a3b;
 }
+.green {
+  color:#5FB709;
+}
 .button {
   display: inline-block;
   border-radius: 0px;
@@ -457,6 +460,7 @@ body {
     background: #bd2a3b;
     color: #fff;
   }
+  
 
   /* .next {
     display: block;

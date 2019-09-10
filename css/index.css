@@ -168,6 +168,10 @@ body {
   color: #bd2a3b;
   font-weight: 400;
 }
+.more{
+  color: #44770A;
+  font-weight: 400;
+}
 .dribbble{
   color: #ea4c89;
   font-weight: 400;
@@ -308,17 +312,17 @@ body {
 }
 .card1 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "Earn & Learn UX/UI Design";
+  content: "Uber Eats Product Design Internship";
   padding: 50px;
 }
 .card2 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "Uber Eats Mini Project";
+  content: "Earn & Learn UX/UI Design";
   padding: 50px;
 }
 .card3 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "LinkedIn Design Exercise";
+  content: "Linkedin Design Exercise";
   padding: 50px;
 }
 .card4 a:hover::after {
