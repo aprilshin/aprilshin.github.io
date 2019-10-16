@@ -21,23 +21,21 @@
 </head>
 
 <body>
-  <header class="header">
-    <h1 class="logo">
-      <a href="index.html">
-        <img src="img/logo_new3.png" width="55%" height="auto" alt="">
-      </a>
-    </h1>
-    <nav aria-label="네비게이션">
-      <ul class="nav-menu">
-        <li class="nav-portfolio">
-          <a href="index.html">Portfolio</a>
-        </li>
-        <li class="nav-about">
-          <a href="about.html">About</a>
-        </li>
-      </ul>
+    <a href="#maincontent" class="jump">Jump to Content</a>
+	<header class="header">
+      <h1 class="logo">
+        <a href="index.html"> <img src="img/newlogo.png" alt="logo" class="logoimg"></a>
+      </h1>
+    <nav aria-label="navigation">
+				<ul class="nav-menu">
+					<li class="#home nav-home"><a href="index.html">HOME</a></li>
+					<li class="#news nav-work"><a href="work.html">WORK</a></li>
+					<!-- <li class="#contact nav-blog"><a href="blog.html">BLOG</a></li> -->
+					<li class="#about nav-contact"><a href="aboutnew2.html">ABOUT</a></li>
+					</ul>	
     </nav>
-  </header>
+  </header>	
+
   <article class="route">
     <div class="route-wrap">
       <h1> LinkedIn Design Exercise
@@ -70,8 +68,80 @@
       opportunities. Professional networking can begin at any point, even in school. Increasingly, students are relying on
       their mobile address book, and not their email address book, to manage their contacts.
         <br><br><span class="bold">Design an experience that helps college students discover and connect to their classmates, without relying on email.</span>
-        
+        <br><br><a href="#research" class="button1" style="vertical-align:middle">JUMP PAST SOLUTION TO RESEARCH</a>
       </p>
+    </section>
+
+      <section class="overview">
+          <h2>Prototyping & Key Features</h2>
+          <p>
+            <div class="row">
+              <div class="column"><br><br><span class="keytitle">1. Switch to Student Mode</span>
+                <br><br><br>College students have options for registering a student account and can input information about their university.
+                <br><br>This would allow college students to not only continue exploring outside of college career opportunities, but also enjoy exclusive space for college students in LinkedIn.
+                
+              </div>
+              <div class="column"><video class="video" width="100%" src="linkedIn_contents/video/1.mp4"
+                  autoplay controls loop muted></video>
+              </div>
+            </div>
+          </p>
+          <p>
+            <div class="row">
+              <div class="column"><br><br><br><span class="keytitle">2. Discover & Work Together </span>
+                <br><br><br>Students can discover classmates who have similar career interest through LinkedIn profile, and they can validate peer capabilities with each other. 
+                <br><br>They can either find opportunities through postings by classmates or post their own things to find the best team members.
+                <br><br>Once students find something attractive, students can request to join the work by using auto message.
+
+
+              </div>
+              <div class="column"><video class="video" width="100%" src="linkedIn_contents/video/2.mp4" autoplay
+                  controls loop muted></video>
+              </div>
+            </div>
+          </p>
+          <p>
+            <div class="row">
+              <div class="column"><br><br><br><span class="keytitle">3. Share your latest experiences</span>
+                <br><br><br>User research indicates that students want to find classmates who have recent recruiting experiences.
+                <br><br>This <span class="italic">Share</span> tap would allow students to post any recent career-related experience or information that they want to share with classmates.
+                <br><br>Based on postings, students can ask for advice, mock interviews or exchange valuable tips and information.
+              </div>
+              <div class="column"><video class="video" width="100%" src="linkedIn_contents/video/3.mp4" autoplay
+                  controls loop muted></video>
+              </div>
+            </div>
+          </p>
+          <p>
+            <div class="row">
+              <div class="column"><br><br><span class="keytitle">4. Find alumni in your industry</span>
+
+                <br><br>Students can find alumni through <span class="italic">School tap</span>, where they see all industries and find which alumni work for specific industries.
+                <br><br>Also, the solution would suggest top-matched alumni based on students' profile. This would enable students to easily find the best person to ask for advice, mentorship, or referrals.
+                <br><br>Students can also use auto-message when initiate the conversation.
+              </div>
+              <div class="column"><video class="video" width="100%" src="linkedIn_contents/video/4.mp4" autoplay
+                  controls loop muted></video>
+              </div>
+            </div>
+          </p>
+          <p>
+            <div class="row">
+              <div class="column"><br><br><span class="keytitle">5. Use dedicated messaging service</span>
+
+                <br><br>One of the primary reasons for why students prefer email over LinkedIn was because users do not check LinkedIn message regularly (since it only serves as a part of the entire service), so there is a delay in responding. 
+                <br><br>In order to address this problem, I suggest offering a separate messaging service, which solely focuses on messaging. 
+                <br><br>Doing this would help users facilitate communication through LinkedIn, and I believe Facebook messenger application can be a good bench-marking point.
+              </div>
+              <div class="column"><video class="video" width="100%" src="linkedIn_contents/video/5.mp4" autoplay
+                  controls loop muted></video>
+              </div>
+            </div>
+          </p>
+          <p>
+            
+      
+        </section>
    
       <main class="main" id="research">
         <section class="approach">
@@ -92,8 +162,12 @@
 
               <br><br>After re-defining the challenge and having  initial assumptions, I started to delve into the research phase.
             </p>
+
         </section>
       </main>
+
+       
+      
       <section class="process">
         <h2>User Research: Survey & Interviews</h2>
         <p>
@@ -204,7 +278,7 @@
         </section>
 
 
-        <section class="overview">
+        <!-- <section class="overview">
           <h2>Prototyping & Key Features</h2>
           <p>
             <div class="row">
@@ -272,7 +346,7 @@
           </p>
           <p>
             
-        </section>
+        </section> -->
 
         <section class="process">
           <h2>Reflection</h2>
@@ -300,25 +374,20 @@
 
 
         <br><br>
-        <a class="next" href="route_creator.html">
-          Next: Route Creator UX Design
-        </a>
+        <a class="next" href="work.html">
+        View More Projects
+      </a>
   </article>
 
   <footer class="footer">
-
     <address>
-      <!-- <a class="email" href="mailto:ezshin@umich.edu">ezshin@umich.edu</a>
-     <a class="Resume" target="_blank" href="resume/aprilshin_resume_sep18.pdf">     ㆍ  Resume </a>
-     <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/aprileshin/">     ㆍ  Linkedin </a> -->
-      <!-- <a class="medium" target="_blank" href="#">   ㆍ  Medium  </a> -->
-      <!-- Add font awesome icons -->
-      <a target="_blank" href="https://dribbble.com/april_e_shin" class="fa fa-dribbble"></a>
-      <a target="_blank" href="https://medium.com/@ezzyy04" class="fa fa-medium"></a>
-      <a target="_blank" href="https://www.linkedin.com/in/aprileshin/" class="fa fa-linkedin"></a>
-      <a target="_blank" href="mailto:ezshin@umich.edu" class="fa fa-google"></a>
+      <a target="_blank" href="https://dribbble.com/april_e_shin" class="fa fa-dribbble" aria-label="dribbble"></a>
+            <a target="_blank" href="https://medium.com/@ezzyy04" class="fa fa-medium" aria-label="medium"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/aprileshin/" class="fa fa-linkedin" aria-label="linkedin"></a>
+            <a target="_blank" href="mailto:ezshin@umich.edu" class="fa fa-google" aria-label="email"></a>
     </address>
     <small class="copyright">&copy; 2018 Designed & Coded by April Euljin Shin.</small>
+  </footer>ss="copyright">&copy; 2018 Designed & Coded by April Euljin Shin.</small>
   </footer>
 
   <script>$('.image-selector').lightzoom({

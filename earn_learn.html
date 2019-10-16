@@ -20,22 +20,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-  <header class="header">
-    <h1 class="logo">
-      <a href="index.html"> <img src="img/logo_new3.png" width="100" alt="logo"></a>
-    </h1>
-    <nav aria-label="네비게이션">
-      <ul class="nav-menu">
-        <li class="nav-portfolio">
-          <a href="index.html">Portfolio</a>
-        </li>
-        <li class="nav-about">
-          <a href="about.html">About</a>
-        </li>
-      </ul>
+<body>    
+	<header class="header">
+      <h1 class="logo">
+        <a href="index.html"> <img src="img/newlogo.png" alt="logo" class="logoimg"></a>
+      </h1>
+    <nav aria-label="navigation">
+				<ul class="nav-menu">
+					<li class="#home nav-home"><a href="index.html">HOME</a></li>
+					<li class="#news nav-work"><a href="work.html">WORK</a></li>
+					<!-- <li class="#contact nav-blog"><a href="blog.html">BLOG</a></li> -->
+					<li class="#about nav-contact"><a href="aboutnew2.html">ABOUT</a></li>
+					</ul>	
     </nav>
-  </header>
+  </header>	
+  
+
   <article class="route">
     <div class="route-wrap">
       <h1> Earn & Learn</h1>
@@ -120,12 +120,9 @@
       
         </p>
       </section>
-
       <br><br><br><a href="#research" class="button1" style="vertical-align:middle">JUMP PAST SOLUTION TO RESEARCH</a>
     </section>
     
-
-
     <section class="overview">
       <h2>Prototyping & Key Features</h2>
         <div class="row">
@@ -210,7 +207,7 @@
               controls loop muted></video>
           </div>
     
-    <main class="main" id="research">
+    <main class="main">
       <section class="approach">
         <h2>Approach</h2>
         <p>
@@ -238,8 +235,11 @@
           </p>
       </section>
     </main>
+    
     <section class="process">
       <h2>Framing the problem</h2>
+        <div id="research">
+        </div>      
       <p>
         In this stage, I conducted <span class="bold">user research</span> and <span class="bold">competitive analysis</span>
         to frame the problem.
@@ -252,6 +252,7 @@
           solutions</span>.
       </p>
     </section>
+    
     <section class="process">
       <h2>User Research: Survey & User Interviews</h2>
       <p> I initially designed survey with 30+ questions, discussed with professor,
@@ -423,13 +424,11 @@
       </section>
 
       <section class="process">
-        <h2>Low Fidelity Prototyping</h2>
+        <h2>Lo-Fidelity Prototyping</h2>
         <p>
         </p>
         <figure>
-          <a target="_blank" href="https://www.youtube.com/watch?v=ijcW8j2uySU&feature=youtu.be">
-          <img class="rwd-img" width="100%" src="el_contents/video_pic.png" alt="">
-          </a>  
+          <iframe width="600" height="350" src="https://www.youtube.com/embed/ijcW8j2uySU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </figure> 
         <p>
       I tested this prototype by assigning users various tasks to complete. When the users got stuck, I
@@ -614,26 +613,20 @@
      
     
       <br><br>
-      <a class="next" href="linkedin.html">
-        Next: Linkedin Design Challenge
+     <a class="next" href="work.html">
+        View More Projects
       </a>
   </article>
 
 <footer class="footer">
-
-  <address>
-    <!-- <a class="email" href="mailto:ezshin@umich.edu">ezshin@umich.edu</a>
-     <a class="Resume" target="_blank" href="resume/aprilshin_resume_sep18.pdf">     ㆍ  Resume </a>
-     <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/aprileshin/">     ㆍ  Linkedin </a> -->
-    <!-- <a class="medium" target="_blank" href="#">   ㆍ  Medium  </a> -->
-    <!-- Add font awesome icons -->
-    <a target="_blank" href="https://dribbble.com/april_e_shin" class="fa fa-dribbble"></a>
-    <a target="_blank" href="https://medium.com/@ezzyy04" class="fa fa-medium"></a>
-    <a target="_blank" href="https://www.linkedin.com/in/aprileshin/" class="fa fa-linkedin"></a>
-    <a target="_blank" href="mailto:ezshin@umich.edu" class="fa fa-google"></a>
-  </address>
-  <small class="copyright">&copy; 2018 Designed & Coded by April Euljin Shin.</small>
-</footer>
+    <address>
+      <a target="_blank" href="https://dribbble.com/april_e_shin" class="fa fa-dribbble" aria-label="dribbble"></a>
+            <a target="_blank" href="https://medium.com/@ezzyy04" class="fa fa-medium" aria-label="medium"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/aprileshin/" class="fa fa-linkedin" aria-label="linkedin"></a>
+            <a target="_blank" href="mailto:ezshin@umich.edu" class="fa fa-google" aria-label="email"></a>
+    </address>
+    <small class="copyright">&copy; 2018 Designed & Coded by April Euljin Shin.</small>
+  </footer>
 
   <script>$('.image-selector').lightzoom({
       glassSize: 200, zoomPower: 1.8

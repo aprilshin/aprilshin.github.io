@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>iTrack Redesign - User Experience Design</title>
+  <title>iTrack - UX/UI Design</title>
+  <link rel="shortcut icon" href="img/favicon_logo3.ico">
+  <link rel="apple-touch-icon" href="img/favicon_logo3.ico">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/itrack.css">
   <link type="text/css" href="css/magnifier.css" rel="stylesheet">
   <link type="text/css" href="css/glassstyle.min.css" rel="stylesheet">
@@ -18,23 +21,21 @@
 </head>
 
 <body>
-  <header class="header">
-    <h1 class="logo">
-      <a href="index.html">
-        <img src="img/logo_new3.png" width="55%" height="auto" alt="">
-      </a>
-    </h1>
-    <nav aria-label="네비게이션">
-      <ul class="nav-menu">
-        <li class="nav-portfolio">
-          <a href="index.html">Portfolio</a>
-        </li>
-        <li class="nav-about">
-          <a href="about.html">About</a>
-        </li>
-      </ul>
+    <a href="#maincontent" class="jump">Jump to Content</a>
+<header class="header">
+      <h1 class="logo">
+        <a href="index.html"> <img src="img/newlogo.png" alt="logo" class="logoimg"></a>
+      </h1>
+    <nav aria-label="navigation">
+				<ul class="nav-menu">
+					<li class="#home nav-home"><a href="index.html">HOME</a></li>
+					<li class="#news nav-work"><a href="work.html">WORK</a></li>
+					<!-- <li class="#contact nav-blog"><a href="blog.html">BLOG</a></li> -->
+					<li class="#about nav-contact"><a href="aboutnew2.html">ABOUT</a></li>
+					</ul>	
     </nav>
-  </header>
+  </header>	
+
   <article class="route">
     <div class="route-wrap">
       <h1>iTrack Re-design Project
@@ -114,12 +115,14 @@
           <br>6) UMSI resource
           <br>7) Social media integration
         </div>
-
+      </p>
+      <p>
         <br><br>Then, we narrowed these down to 4 categories.
         <figure>
           <img class="rwd-img" src="itrack_contents/IA_colorcode.png" alt="">
         </figure>
-
+      </p>
+      <p>
         <br>Based on the 4 categories, below is the analysis of current iTrack landing page desktop view.
         <figure>
           <img class="rwd-img" src="itrack_contents/current_view.jpg" alt="">
@@ -132,6 +135,8 @@
         We asked users to browse through iTrack’s landing page on desktop to understand their pain points and evaluate
         current
         landing page interface.
+      </p>
+      <p>
         <div class="question">
           <br><br>1. What is your first impression of the iTrack’s landing page?
         </div>
@@ -145,7 +150,7 @@
         <div class="question">
           <br><br>2. What do you like about the landing page the most?
         </div>
-        <br><span class="red">Credibility: </span><span class="answer"> “I like credible resources validated through
+        <br><span class="red question">Credibility: </span><span class="answer"> “I like credible resources validated through
           UMSI.”</span>
         <br>
 
@@ -164,18 +169,18 @@
           <br><span class="red">Account setup process: </span><span class="answer"> “I experienced inconvenient user
             setup process."</span>
         </div>
-      </p>
+      
 
       <section class="process">
         <h2>User Problem Statement</h2>
         <p>
           Based on our previous user research, current iTrack users are having difficulties in:
-          <br><br><span class="italic">1. Locating desired information to complete target tasks</span>
+          <br><br><span class="answer">1. Locating desired information to complete target tasks</span>
           <figure>
             <img class="rwd-img" src="itrack_contents/hard_find.png" alt="">
           </figure>
 
-          <br><br><span class="italic">2. Focusing on relevant information in the midst of redundancy</span>
+          <br><br><span class="answer">2. Focusing on relevant information in the midst of redundancy</span>
           <figure>
             <img class="rwd-img" src="itrack_contents/redundant_info.png" alt="">
           </figure>
@@ -318,22 +323,16 @@
 
 
 
-    <br><a class="next" href="index.html">
-      Next: Home
-    </a>
+    <br><a class="next" href="work.html">
+        View More Projects
+      </a>
   </article>
   <footer class="footer">
-  
     <address>
-      <!-- <a class="email" href="mailto:ezshin@umich.edu">ezshin@umich.edu</a>
-       <a class="Resume" target="_blank" href="resume/aprilshin_resume_sep18.pdf">     ㆍ  Resume </a>
-       <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/aprileshin/">     ㆍ  Linkedin </a> -->
-      <!-- <a class="medium" target="_blank" href="#">   ㆍ  Medium  </a> -->
-      <!-- Add font awesome icons -->
-      <a target="_blank" href="https://dribbble.com/april_e_shin" class="fa fa-dribbble"></a>
-      <a target="_blank" href="https://medium.com/@ezzyy04" class="fa fa-medium"></a>
-      <a target="_blank" href="https://www.linkedin.com/in/aprileshin/" class="fa fa-linkedin"></a>
-      <a target="_blank" href="mailto:ezshin@umich.edu" class="fa fa-google"></a>
+      <a target="_blank" href="https://dribbble.com/april_e_shin" class="fa fa-dribbble" aria-label="dribbble"></a>
+            <a target="_blank" href="https://medium.com/@ezzyy04" class="fa fa-medium" aria-label="medium"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/aprileshin/" class="fa fa-linkedin" aria-label="linkedin"></a>
+            <a target="_blank" href="mailto:ezshin@umich.edu" class="fa fa-google" aria-label="email"></a>
     </address>
     <small class="copyright">&copy; 2018 Designed & Coded by April Euljin Shin.</small>
   </footer>
