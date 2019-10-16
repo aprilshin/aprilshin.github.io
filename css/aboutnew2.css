@@ -460,7 +460,47 @@ color: #888;
     color: #000;
   }
 
+.button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); 
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #fff;
+  border: 1px solid #414145;
+  color: #414145;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 18px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
 
+  
+
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button:hover {
+ position: relative;
+  left: 50%;
+  transform: translateX(-50%); 
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #414145;
+  border: 1px solid #414145;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 18px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+ font-family: "Montserrat", sans-serif;
+}
   
   .footer {
     font-size: 20px;
