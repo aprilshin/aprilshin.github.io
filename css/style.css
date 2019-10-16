@@ -337,7 +337,7 @@ a {
     padding: 30px;
   }
   .intro-contents {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
@@ -348,11 +348,11 @@ a {
     overflow: hidden;
   }
   .card a::after {
-    font-size: 16px;
+    font-size: 14px;
   }
   
   .card {
-    font-size: 16px;
+    font-size: 14px;
 
   }
   .card1 {
