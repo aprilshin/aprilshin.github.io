@@ -63,6 +63,10 @@ a {
   font-style: italic;
   text-decoration: underline;
 }
+
+.title {
+   font-family: "Montserrat", sans-serif;
+}
 .button {
   position: relative;
   left: 50%;
@@ -375,11 +379,29 @@ a {
     width: 100%;
   }
   
+    .message {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 50px;
+}
+.publication {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  background-color: #EFEFEF;
+  padding: 30px;
+  margin-top: 50px;
+}
+
   .footer {
     font-size: 20px;
     font-weight: 200;
     text-align: center;
-    margin-top: 50px;
   }
   .copyright {
     width: 100%;
@@ -481,12 +503,30 @@ a {
   .card6 {
     width: 100%;
   }
+
+  .message {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 38px;
+  background-color: #fff;
+  padding: 120px 120px 50px 120px;
+  margin-top: 50px;
+}
+.publication {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 38px;
+  background-color: #EFEFEF;
+  padding: 80px 120px 100px 120px;
+  margin-top: 50px;
+}
   
   .footer {
     font-size: 23px;
     font-weight: 200;
     text-align: center;
-    margin-top: 100px;
   }
   .copyright {
     width: 100%;
@@ -587,12 +627,31 @@ a {
   .card6 {
     width: 50%;
   }
+
+  .message {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 42px;
+  background-color: #fff;
+  padding: 100px 300px;
+  margin-top: 50px;
+}
+.publication {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 40px;
+  background-color: #EFEFEF;
+  padding: 100px 300px 120px;
+  margin-top: 50px;
+}
   
   .footer {
     font-size: 23px;
     font-weight: 200;
     text-align: center;
-    margin-top: 100px;
+    
   }
   .copyright {
     width: 100%;
