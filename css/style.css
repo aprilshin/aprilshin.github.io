@@ -343,7 +343,7 @@ a {
   .intro-contents {
     font-size: 14px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 27px;
     text-align: center;
   }
 
@@ -379,8 +379,9 @@ a {
     width: 100%;
   }
   
-    .message {
+  .message {
   font-family: "Open Sans", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 15px;
   font-weight: 300;
   line-height: 30px;
@@ -394,7 +395,7 @@ a {
   font-weight: 300;
   line-height: 30px;
   background-color: #EFEFEF;
-  padding: 30px;
+  padding: 80px 30px;
   margin-top: 50px;
 }
 
