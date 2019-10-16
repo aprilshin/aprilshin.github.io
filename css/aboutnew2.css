@@ -121,10 +121,13 @@ a {
   color: #414145;
   text-align: center;
   font-size: 14px;
+  font-weight: 400;
   padding: 18px;
-  width: 350px;
+  width: 400px;
   transition: all 0.5s;
   cursor: pointer;
+
+  
 
   margin-top: 30px;
   font-family: "Montserrat", sans-serif;
@@ -141,8 +144,9 @@ a {
   color: #fff;
   text-align: center;
   font-size: 14px;
+  font-weight: 400;
   padding: 18px;
-  width: 350px;
+  width: 400px;
   transition: all 0.5s;
   cursor: pointer;
  font-family: "Montserrat", sans-serif;
