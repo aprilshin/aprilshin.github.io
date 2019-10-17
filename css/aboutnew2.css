@@ -72,6 +72,15 @@ a {
    font-family: "Montserrat", sans-serif;
 }
 
+.rwd-img {
+  width: 100%;
+}
+
+.footerimg {
+  width: 50%;
+ 
+}
+
 /* common header */
 .jump {
     left:-999px;
@@ -158,12 +167,68 @@ a {
   background-color: #fff;
 }
 
+/* portfolio main cards */
+.main {
+  overflow: hidden;
+}
 .card {
   float: left;
-  width: 100%;
+  width: 50%;
   font-weight: 500;
 }
-
+.card a,
+.card img {
+  display: block;
+}
+.card a {
+  position: relative;
+  display: block;
+}
+.card a::after {
+  transition: all 800ms;
+  background: transparent;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1 a:hover::after {
+  background: rgba(0, 0, 0, 0.6);
+  content: "Uber Eats Product Design Internship";
+  /* padding: 50px; */
+}
+.card2 a:hover::after {
+  background: rgba(0, 0, 0, 0.6);
+  content: "Earn & Learn UX/UI Design";
+  /* padding: 50px; */
+}
+.card3 a:hover::after {
+  background: rgba(0, 0, 0, 0.6);
+  content: "Linkedin Design Exercise";
+  /* padding: 50px; */
+}
+.card4 a:hover::after {
+  background: rgba(0, 0, 0, 0.6);
+  content: "Route Creator UX/UI Design";
+  /* padding: 50px; */
+}
+.card5 a:hover::after {
+  background: rgba(0, 0, 0, 0.6);
+  content: "Samsung Global Audio UX Consulting";
+  /* padding: 50px; */
+}
+.card6 a:hover::after {
+  background: rgba(0, 0, 0, 0.6);
+  content: "iTrack UX/Web Re-design";
+  /* padding: 50px; */
+}
 
 .card img {
   width: 100%;
@@ -228,134 +293,6 @@ a {
   color: green;
 }
 
-/* Contact Form */
-.contact_container {
-font-family: "Montserrat", sans-serif;
-font-weight: 400;
-line-height: 30px;
-color: #777;
-max-width: 1000px;
-width: 100%;
-margin: 0 auto;
-position: relative;
-
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-font: 400 12px/16px "Montserrat", Helvetica, Arial, sans-serif;
-}
-
-
-#contact {
-background: #F9F9F9;
-padding: 25px;
-margin: 100px 110px;
-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
-}
-
-#contact h3 {
-display: block;
-font-size: 30px;
-font-weight: 300;
-margin-bottom: 10px;
-margin-top: 10px;
-}
-
-#contact h4 {
-margin: 5px 0 15px;
-display: block;
-font-size: 13px;
-font-weight: 400;
-margin-top: 10px;
-}
-
-fieldset {
-border: medium none !important;
-margin: 0 0 10px;
-min-width: 100%;
-padding: 0;
-width: 100%;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
-width: 100%;
-border: 1px solid rgb(187, 187, 187);
-background: #FFF;
-margin: 0 0 5px;
-padding: 15px;
-}
-
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
--webkit-transition: border-color 0.15s ease-in-out;
--moz-transition: border-color 0.15s ease-in-out;
-transition: border-color 0.15s ease-in-out;
-border: 1.2px solid #aaa;
-}
-
-#contact textarea {
-height: 100px;
-max-width: 100%;
-resize: none;
-}
-
-#contact button[type="submit"] {
-cursor: pointer;
-width: 100%;
-height: 50px;
-border: none;
-background: #bd2a3b;
-color: #FFF;
-margin: 0 0 5px;
-padding: 10px;
-font-size: 15px;
-}
-
-#contact button[type="submit"]:hover {
-background: #bd2a3b;
--webkit-transition: background 0.15s ease-in-out;
--moz-transition: background 0.15s ease-in-out;
-transition: background-color 0.15s ease-in-out;
-}
-
-#contact button[type="submit"]:active {
-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#contact input:focus,
-#contact textarea:focus {
-outline: 0;
-border: 1px solid #aaa;
-}
-
-::-webkit-input-placeholder {
-color: #888;
-}
-
-:-moz-placeholder {
-color: #888;
-}
-
-::-moz-placeholder {
-color: #888;
-}
-
-:-ms-input-placeholder {
-color: #888;
-}
-
 /* responsive screen: mobile */
 @media screen and (max-width: 600px) {
 .header {
@@ -410,10 +347,10 @@ color: #888;
     padding: 30px;
   }
  .intro-contents {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 200;
     line-height: 32px;
-    text-align: center;
+    text-align: left;
   }
 
   .message {
@@ -422,8 +359,9 @@ color: #888;
   font-weight: 300;
   line-height: 30px;
   background-color: #fff;
-  padding: 30px;
-  margin-top: 50px;
+  padding: 50px 30px;
+  margin-top: 20px;
+  text-decoration: underline;
 }
 .publication {
   font-family: "Open Sans", sans-serif;
@@ -431,7 +369,7 @@ color: #888;
   font-weight: 300;
   line-height: 30px;
   background-color: #EFEFEF;
-  padding: 30px;
+  padding: 70px 30px;
   margin-top: 50px;
 }
 
@@ -440,15 +378,31 @@ color: #888;
     overflow: hidden;
   }
   .card a::after {
-    font-size: 16px;
+    font-size: 14px;
   }
   
   .card {
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-   
+    font-size: 14px;
 
+  }
+  .card1 {
+    width: 100%;
+  }
+  .card2 {
+    width: 100%;
+  }
+  .card3 {
+    width: 100%;
+  }
+  .card4 {
+    width: 100%;
+    float: right;
+  }
+  .card5 {
+    width: 100%;
+  }
+  .card6 {
+    width: 100%;
   }
 
   .intro-sub {
@@ -570,13 +524,13 @@ color: #888;
 }
 
   .intro {
-    padding: 10px 100px 0 100px;
+    padding: 10px 100px 50px 100px;
   }
   .intro-contents {
     font-size: 28px;
     font-weight: 200;
-    line-height: 40px;
-    text-align: center;
+    line-height: 42px;
+    text-align: left;
   }
 
   .message {
@@ -585,8 +539,8 @@ color: #888;
   font-weight: 300;
   line-height: 38px;
   background-color: #fff;
-  padding: 120px 120px 50px 120px;
-  margin-top: 50px;
+  padding: 100px 120px 50px 120px;
+  /* margin-top: 50px; */
 }
 .publication {
   font-family: "Open Sans", sans-serif;
@@ -598,12 +552,33 @@ color: #888;
   margin-top: 50px;
 }
   
+.card a::after {
+    font-size: 22px;
+  }
+  
   .card {
     font-size: 22px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
 
+  }
+  .card1 {
+    width: 100%;
+  }
+  .card2 {
+    width: 100%;
+  }
+  .card3 {
+    width: 100%;
+  }
+  .card4 {
+    width: 100%;
+    float: right;
+  }
+  .card5 {
+    width: 100%;
+  }
+  .card6 {
+    width: 100%;
+  }
    .intro-sub {
     font-size: 18px;
     font-weight: 300;
@@ -720,13 +695,13 @@ color: #888;
   width: 195px;
 }
   .intro {
-    padding: 30px 150px 0 150px;
+    padding: 30px 150px 70px 150px;
   }
   .intro-contents {
     font-size: 33px;
     font-weight: 200;
     line-height: 50px;
-    text-align: center;
+    text-align: left;
   }
 
   .intro-sub {
@@ -745,7 +720,7 @@ color: #888;
   line-height: 42px;
   background-color: #fff;
   padding: 100px 300px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .publication {
   font-family: "Open Sans", sans-serif;
@@ -767,11 +742,27 @@ color: #888;
   
   .card {
     font-size: 20px;
-    margin-top: 100px;
-    margin-bottom: 100px;
 
   }
-
+  .card1 {
+    width: 50%;
+  }
+  .card2 {
+    width: 25%;
+  }
+  .card3 {
+    width: 25%;
+  }
+  .card4 {
+    width: 50%;
+    float: right;
+  }
+  .card5 {
+    width: 25%;
+  }
+  .card6 {
+    width: 25%;
+  }
   
   .footer {
     font-size: 23px;
