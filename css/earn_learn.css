@@ -421,6 +421,7 @@ body {
   }
   .video {
     width: 100%;
+    margin-top: 5px;
   }
   .rc-description {
     font-size: 24px;
@@ -561,10 +562,10 @@ body {
 .column {
     float: left;
     width: 50%;
-    font-size: 11px;
-    line-height: 16px;
+    font-size: 10px;
+    line-height: 12px;
     font-family: "Open Sans", sans-serif;
-    margin-top: 15px;
+    margin-top: 11px;
 }
 
 /* Clear floats after the columns */
@@ -804,11 +805,11 @@ body {
 .column {
     float: left;
     width: 50%;
-    font-size: 16px;
-    line-height: 29px;
+    font-size: 14px;
+    line-height: 20px;
     font-family: "Open Sans", sans-serif;
     margin-top: 15px;
-}
+  }
 
 /* Clear floats after the columns */
 .row:after {
@@ -823,7 +824,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #414145;
-  font-size: 30px;
+  font-size: 18px;
 
 }
 #myBtn {
@@ -1025,15 +1026,14 @@ body {
     line-height: 29px;
     font-family: "Open Sans", sans-serif;
   }
-.column {
+ .column {
     float: left;
     width: 50%;
     font-size: 16px;
     line-height: 30px;
     font-family: "Open Sans", sans-serif;
     margin-top: 100px;
-    margin-bottom: 80px;
-}
+  }
 
 /* Clear floats after the columns */
 .row:after {

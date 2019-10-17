@@ -909,6 +909,7 @@ body {
     color: #bd2a3b;
   }
   .video {
+    width: 100%;
   }
   .route {
     position: relative;
