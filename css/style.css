@@ -64,6 +64,10 @@ a {
   text-decoration: underline;
 }
 
+.underlineonly {
+  text-decoration: underline;
+}
+
 .title {
    font-family: "Montserrat", sans-serif;
 }
@@ -393,7 +397,7 @@ a {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 26px;
   background-color: #EFEFEF;
   padding: 80px 30px;
   margin-top: 50px;
