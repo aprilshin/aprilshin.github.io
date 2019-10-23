@@ -606,6 +606,9 @@ body {
     margin-bottom: 20px;
     font-weight: 400;
   }
+  .underline {
+    text-decoration: underline;
+  }
 }
 
 /* responsive screen: tablet */
@@ -848,6 +851,9 @@ body {
     padding: 15px;
     margin-bottom: 20px;
     font-weight: 400;
+  }
+  .underline {
+    text-decoration: underline;
   }
 }
 
