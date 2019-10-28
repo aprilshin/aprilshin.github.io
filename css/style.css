@@ -209,17 +209,17 @@ a {
 }
 .card2 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "Linkedin Design Exercise";
+  content: "Earn & Learn UX/UI Design";
   padding: 50px;
 }
 .card3 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "Route Creator UX/UI Design";
+  content: "Linkedin Design Exercise";
   padding: 50px;
 }
 .card4 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "Earn & Learn UX/UI Design";
+  content: "Route Creator UX/UI Design";
   padding: 50px;
 }
 .card5 a:hover::after {
@@ -619,20 +619,20 @@ a {
     width: 50%;
   }
   .card2 {
-    width: 25%;
+    width: 50%;
   }
   .card3 {
-    width: 25%;
+    width: 50%;
   }
   .card4 {
     width: 50%;
     float: right;
   }
   .card5 {
-    width: 25%;
+    width: 50%;
   }
   .card6 {
-    width: 25%;
+    width: 50%;
   }
 
   .message {
