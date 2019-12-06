@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>King of Speech - VR UX Design</title>
+  <link rel="shortcut icon" href="img/favicon_logo3.ico">
+  <link rel="apple-touch-icon" href="img/favicon_logo3.ico">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/summerinternship.css">
+  <link type="text/css" href="css/magnifier.css" rel="stylesheet">
+  <link type="text/css" href="css/glassstyle.min.css" rel="stylesheet">
+  <script src="js/topbutton.js"></script>
+  <!-- <script src="js/jquery.min.js"></script>
+  <script src="js/lightzoom.min.js"></script> -->
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <main>
+		<a href="#maincontent" class="jump">Jump to Content</a>
+	<header class="header">
+      <h1 class="logo">
+        <a href="index.html"> <img src="img/newlogo.png" alt="logo" class="logoimg"></a>
+      </h1>
+    <nav aria-label="navigation">
+				<ul class="nav-menu">
+					<li class="#home nav-home"><a href="index.html">HOME</a></li>
+					<li class="#news nav-work"><a href="work.html">WORK</a></li>
+					<!-- <li class="#contact nav-blog"><a href="blog.html">BLOG</a></li> -->
+					<li class="#about nav-contact"><a href="aboutnew2.html">ABOUT</a></li>
+					</ul>	
+    </nav>
+  </header>	
+  <article class="route">
+    <div class="route-wrap">
+      <h1> King of Speech VR Design
+        <p class="rc-description">
+          How Might We Help Users to overcome
+          <br>
+          a fear of public speaking or to practice public speaking
+        </p>
+      </h1>
+      <p class="rc-details">
+        <span class="rc-details-heading">Type</span> Team Project | Ruiting Cao, Cindy Zhu, Shih-ting Huang, Valorie Zhang, Yuehan Wang, April Shin
+ 
+        <br>
+        <span class="rc-details-heading">Role</span> UX Designer
+        <br>
+        <span class="rc-details-heading">Tools</span> A-Frame, Unity
+        <br>
+        <span class="rc-details-heading">Timespan</span> Fall 2019 | 2 weeks
+        <br>
+      </p>
+    </div>
+    <figure>
+      <img class="rwd-img" src="si559_vr/mainimg.png" width=100% height=auto alt="">
+    </figure>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"> Go to top</button>
+   
+    <section class="overview">
+      <h2>Overview</h2>
+      <p>Over the last four months, I was taking the course: introduction to AR/VR, taught by Professor Nebeling. For the first two weeks, everyone in the class had an opportunity to present their own ideas, a.k.a. speed dating, and could form a group based on individual's interest. I formed a group with five amazing classmates and started working on defining a problem space that we would like to solve through VR.
+      </p>
+    </section>
+
+    
+    <section class="overview">
+      <h2>The Problem Statement & Key Features</h2>
+      <p>After a few hours of heated discussion, we finalized our problem statement: <span class="italic">how might we help users to overcome a fear of public speaking or to practice public speaking freely until they become confident.</span> I found this problem is very interesting and also prospective because 1) from the user perspective, the needs for public speaking has increased over the last decades, and 2) from the business perspective, the solution can be marketable for both students and adults.
+
+
+      <br><br>The product’s key features is to provide 1) a real public speaking setting depending on users’ needs, 2) real audience experience by incorporating sounds or visual components, and 3) unexpected situations in order for users to practice/handle difficulties during public speaking. 
+      </p>
+    </section>
+
+    <section class="overview">
+      <h2>Physical Prototype</h2>
+      <p>To begin with, we started out with physical prototyping. There were two major interactions: 1) our core user is waiting at the backstage right before starting his/her speech. As soon as the user taps on “start the speech,” the curtain will open and the user can see the audiences. And 2) during or after the user's public speaking, unexpected or pre-made questions from the audience will show up on the question box so that the user can simulate some difficult situation and think about how to overcome it.     
+        <figure>
+          <iframe width="600" height="350" src="https://www.youtube.com/embed/1RJ8uReqD4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </figure>     
+      </p>
+    </section>
+
+    <section class="overview">
+      <h2>Digital Prototype</h2>
+      <p>After the physical prototyping, we were able to receive diverse feedback from the class presentation. First, from Professor Nebeling, we received feedback to focus more on creating immersive experience by incorporating  1) sound, 2) lighting, and 3) surrounded background. Second, from peers, we had feedback to add more realistic audiences who are moving like a real human. 
+      
+      <br><br>In order to incorporate the feedback, we added visual and audio elements to the final prototyping, and also explored many different ways to add live 3D models that we could use as an audience, which we ended up implementing it successfully. Specifically, to best mimic the real speech environment, we adjusted the camera positions to make sure the user “stands” at the center of the stage, close to the back of the curtain. In addition, we adjusted question plate height to make sure it’s in a comfortable headturn range when the user clicks to pick up the question.
+
+        <figure>
+          <iframe width="600" height="350" src="https://www.youtube.com/embed/YXQBoDGtyIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </figure>     
+      </p>
+    </section>
+
+    <section class="process">
+      <h2>Key Learnings</h2>
+      <p>
+        There are several lessons I learned throughout the project. <br><br><span class="bold">First, VR requires many more elements to take into consideration.</span>
+        <br>Unlike mobile/web design, VR should give users a high-dimensional immersive experience, which I had to take a lot of sensory and physical components into the actual prototyping. This had me to think that VR experience design is  what I should pay more attention and put more effort/time in building compared to that of mobile/web experience. 
+        
+        <br><br><span class="bold">Second, learning effective prototyping tools is imperative.</span>
+        <br>We, as a team, gave several shots to learn numerous prototyping tools, and ended up using A-Frame since most of us are familiar with HTML. However, VR prototyping is still much more complicated than the other types of prototyping. Even though A-Frame is HTML based, we need to think in 3D while manipulating the elements. For example, when we tried to make the curtain being disappeared by clicking, it took us a lot of time to figure out how we should change its visibility and also its position to fully move it outside of the sight - it was very interesting to think of the coding in 3D space. Overall, compared to any other design, I felt learning effective tools seems very important to fully learn designing VR experience.       
+    </section>
+
+    <section class="process">
+      <h2>Experience & Skills</h2>
+      <p>
+        Throughout the project and overall coursework, I gained new experience and learned new skill sets. 
+
+        <br><br><span class="bold">First and foremost, I learned how to build VR product by using diverse methods and tools.</span>
+        <br>For the product I built with the team, I used A-frame, but not only the A-frame, I was able to try out another new  tool, Unity. While spending several hours and days to learn new tools, I could gain the ability to design 3/4D space as well as gain different perspectives for UX in larger context. 
+     
+        <br><br><span class="bold">Second, I had an opportunity to learn the imperative principles in designing VR experience.</span>
+        <br>Through numerous readings, lectures, and class activities, I learned how VR technology can be translated into a new user experience. This further convinced me that keeping up with new technology and learning new design principles, tools and even ethics are very important as a UX designer.      
+      </p>
+    
+    </section>
+
+
+
+
+    <br><br>
+    <a class="next" href="work.html">
+        View More Projects
+      </a>
+  </article>
+
+  <footer class="footer">
+    <address>
+      <a target="_blank" href="https://dribbble.com/april_e_shin" class="fa fa-dribbble" aria-label="dribbble"></a>
+            <a target="_blank" href="https://medium.com/@ezzyy04" class="fa fa-medium" aria-label="medium"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/aprileshin/" class="fa fa-linkedin" aria-label="linkedin"></a>
+            <a target="_blank" href="mailto:ezshin@umich.edu" class="fa fa-google" aria-label="email"></a>
+    </address>
+    <small class="copyright">&copy; 2019 Designed & Coded by April Euljin Shin.</small>
+  </footer>
+
+  <script>$('.image-selector').lightzoom({
+      glassSize: 200, zoomPower: 1.8
+    });</script>
+</body>
+
+</html>
