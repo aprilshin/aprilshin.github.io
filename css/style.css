@@ -209,17 +209,17 @@ a {
 }
 .card2 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "Earn & Learn UX/UI Design";
+  content: "Linkedin Design Exercise";
   padding: 50px;
 }
 .card3 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "Linkedin Design Exercise";
+  content: "Pre-Uber Eats UX Design";
   padding: 50px;
 }
 .card4 a:hover::after {
   background: rgba(0, 0, 0, 0.6);
-  content: "King of Speech VR Project";
+  content: "iTrack UX/Web Re-design";
   padding: 50px;
 }
 .card5 a:hover::after {
